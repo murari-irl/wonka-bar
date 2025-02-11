@@ -7,6 +7,10 @@
     font-style: normal;
 }
 
+html {
+    width: 95%;
+    margin: 0 auto;
+}
 .nav {
     height: 80px;
     display: flex;
@@ -64,10 +68,9 @@
 }
 
 .main-ad-img {
-    width: 700px;
+    width: 600px;
     max-width: 90%;
     display: block;
     border-radius: 20px;
-    flex: 0 1 auto;
     border: 10px double black;
 }
