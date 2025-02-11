@@ -80,18 +80,59 @@ html {
 .about {
     width: 800px;
     max-width: 95%;
-    margin: 0 auto;
-    height: 80vh;
+    margin: 20px auto 70px;
 }
 
-.about h2 {
+h2 {
+    text-align: center;
     font-size: xx-large;
     font-weight: bolder;
     margin-bottom: 15px;
+    width: 800px;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .about p {
     font-size: x-large;
     text-align: justify;
     margin-bottom: 10px;
+}
+
+.testimonials {
+    width: 800px;
+    max-width: 80%;
+    margin: 20px auto 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: center;
+}
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 7px;
+    width: 200px;
+}
+
+.testimonial-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.t-person {
+    font-weight: bold;
+    font-size: large;
+}
+
+.t-review {
+    text-align: center;
+    font-style: italic;
 }
