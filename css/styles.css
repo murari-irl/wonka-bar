@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .nav {
@@ -29,4 +32,42 @@
 
 .nav a.nav-item:hover {
     text-decoration: underline;
+}
+
+.main-ad {
+    display: flex;
+    margin: 60px 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.main-ad-text {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.ad-bigger {
+    font-size: 50px;
+}
+
+.ad-bolder {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.ad-surprising {
+    font-size: 60px;
+    font-weight: bolder;
+    color:chocolate
+}
+
+.main-ad-img {
+    width: 700px;
+    max-width: 90%;
+    display: block;
+    border-radius: 20px;
+    flex: 0 1 auto;
+    border: 10px double black;
 }
